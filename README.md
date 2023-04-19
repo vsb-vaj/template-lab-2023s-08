@@ -8,7 +8,7 @@
 ### Task 2 - Style the characters pages
 
 1. Use components from the MUI library to style the `Characters` and `CharacterDetail` components
-2. The list should be using the `Card` component, and include the name and image of the character, it should also include a link to the dating page (Make sure to use the React Router link)
+2. The list should be using the `Card` component, and include the name and image of the character, it should also include a link to the detail page (Make sure to use the React Router link)
 3. The detail should include the image as well, but the rest is up to your imagination
 4. There is also an `<Outlet />` component to display comments, leave it as is for now, it's a different task
 
