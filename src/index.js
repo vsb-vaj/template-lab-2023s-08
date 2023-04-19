@@ -51,6 +51,7 @@ const router = createBrowserRouter([
         loader: episodesLoader,
         element: <Episodes />,
         children: [
+          { index: true, element: <h1>Choose an episode</h1> },
           {
             path: ":episodeId",
             loader: episodeDetailLoader,
@@ -64,6 +65,7 @@ const router = createBrowserRouter([
         loader: locationsLoader,
         element: <Locations />,
         children: [
+          { index: true, element: <h1>Choose a location</h1> },
           {
             path: ":locationId",
             loader: locationDetailLoader,

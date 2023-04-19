@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# LAB 08 - Material UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Task 1 - Navigation
 
-## Available Scripts
+1. Install the [MUI](https://mui.com/) library in this repository
+2. Use the App Bar component to create a navigation in `App.js`, with links to the `characters`, `episodes` and `locations` pages
 
-In the project directory, you can run:
+### Task 2 - Style the characters pages
 
-### `npm start`
+1. Use components from the MUI library to style the `Characters` and `CharacterDetail` components
+2. The list should be using the `Card` component, and include the name and image of the character, it should also include a link to the dating page (Make sure to use the React Router link)
+3. The detail should include the image as well, but the rest is up to your imagination
+4. There is also an `<Outlet />` component to display comments, leave it as is for now, it's a different task
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tasks 2 & 3 - Style the episodes and locations pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Use components from the MUI library to style all the components(pages) in the `components` folder.
+2. There should be a sidebar on the left side of the page, that shows the list of episodes or locations
+3. Use the `NavLink` from React Router to link to a detail of each episode or location, and highlight the selected one
+4. The detail is up to your imagination, but I suggest you include links to characters form the selected episode or location
 
-### `npm test`
+### Task 4 - comments
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. On the character detail page, we also render the `CharacterComments` component
+2. The comments are a simple array of strings, use components from the MUI library to style the comments
+3. Style the form to add a new comment as well
 
-### `npm run build`
+### BONUS - creativity
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. You can earn extra point by being creative and making a nice looking app with the MUI library
